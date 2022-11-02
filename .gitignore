@@ -15,3 +15,7 @@ venv/
 *.pyc
 *.egg-info
 .pytest_cache
+
+# Jupyter Notebook Stuff
+.ipynb_checkpoints
+Intermediate Software Development in Python - Jupyter Notepad.ipynb
