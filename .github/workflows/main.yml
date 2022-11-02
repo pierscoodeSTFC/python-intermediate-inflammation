@@ -43,5 +43,5 @@ jobs:
        
       # Linter
       - name: Check style with pylint
-      run: |
-      python3 -m pylint --fail-under=0 --reports=y inflammation
+        run: |
+          python3 -m pylint --fail-under=0 --reports=y inflammation
