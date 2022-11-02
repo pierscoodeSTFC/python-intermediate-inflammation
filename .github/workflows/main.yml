@@ -4,7 +4,7 @@ name: CI
 on: push
 
 # Define a single job, build
-job:
+jobs:
 
   build:
 
