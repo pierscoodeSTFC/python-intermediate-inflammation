@@ -8,9 +8,14 @@ jobs:
 
   build:
 
-    # Specify the OS of the runner
-    runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: [3.8, 3.9]
+  
+    # specify the OS of the runner
+    runs-on: ${{ matrix.os }}
+    
     # Define our steps
     steps:
 
