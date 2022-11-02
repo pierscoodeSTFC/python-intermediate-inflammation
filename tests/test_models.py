@@ -4,10 +4,6 @@ import numpy as np
 import numpy.testing as npt
 import pytest
 
-from inflammation.models import daily_mean
-from inflammation.models import daily_min
-from inflammation.models import daily_max
-
 @pytest.mark.parametrize(
 "test_input, expected_result",
 [
