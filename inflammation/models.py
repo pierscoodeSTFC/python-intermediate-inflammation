@@ -36,3 +36,6 @@ def daily_min(data):
     """Calculate the daily min of a 2D inflammation data array."""
     return np.min(data, axis=0)
 
+def standard_deviation(data):
+    """Calcualte the standard deviation of the the data"""
+    return np.std(data, axis=0)
